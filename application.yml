@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: Welcome-API
+    
+  boot:
+    admin:
+      client:
+        url: http://localhost:8082/
+    
+
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  
+  
